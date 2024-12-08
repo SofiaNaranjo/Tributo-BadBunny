@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página tributo a Bad Bunny, el icónico artista de reggaetón y trap latino. Conoce su biografía, discografía, conciertos, fotos exclusivas y contacto para sus fans.">
+    <meta name="keywords" content="Bad Bunny, Benito Antonio Martínez Ocasio, tributo Bad Bunny, reggaetón, trap latino, discografía Bad Bunny, conciertos Bad Bunny, música urbana">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <title>Tributo a Bad Bunny</title>
+</head>
+<body>
+    <header role="banner">
+        <div class="general">
+            <div class="logo">
+                <h1>Tributo a Bad Bunny</h1>
+            </div>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+            <nav id="menu" aria-label="Menú principal">
+                <ul class="nav-list">
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#discografia">Discografía</a></li>
+                    <li><a href="#conciertos">Conciertos</a></li>
+                    <li><a href="#multimedia">Multimedia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="biografia" class="section">
+            <h2>Biografía</h2>
+            <p>Bad Bunny, cuyo nombre real es Benito Antonio Martínez Ocasio, nació en San Juan, Puerto Rico, el 10 de marzo de 1994. Es compositor y cantante de música urbana, destacándose en trap y reggaetón. Ha revolucionado la música urbana a nivel mundial, ganando numerosos premios y encabezando listas de éxitos.</p>
+        </section>
+
+        <section id="discografia" class="section">
+            <h2>Discografía</h2>
+            <div class="discos">
+                <div class="disco-discografía">
+                    <h3>X100PRE (2018)</h3>
+                    <ul>
+                        <li>Fusión innovadora de reggaetón y trap, destacando "MIA" con Drake.</li>
+                    </ul>
+                    <img src="images/bad_bunny1.jpg" alt="Bad Bunny en concierto" width="200" height="300">
+                </div>
+                <div class="disco-discografía">
+                    <h3>Oasis (2019)</h3>
+                    <li>Álbum colaborativo con J Balvin, repleto de ritmos veraniegos.</li>
+                    <img src="images/bad_bunny2.jpg" alt="Bad Bunny en concierto" width="200" height="300">
+                </div>
+                <div class="disco-discografía">
+                    <h3>YHLQMDLG (2020)</h3>
+                    <li>Considerado uno de sus álbumes más variados, con temas como "La Santa" con Daddy Yankee.</li>
+                    <img src="images/bad_bunny3.jpg" alt="Bad Bunny en concierto" width="200" height="300">
+                </div>
+                <div class="disco-discografía">
+                    <h3>El Último Tour Del Mundo (2020)</h3>
+                    <li>Un álbum más experimental, que mezcla reggaetón con rock alternativo.</li>
+                    <img src="images/bad_bunny4.jpg" alt="Bad Bunny en concierto" width="200" height="300">
+                </div>
+                <div class="disco-discografía">
+                    <h3>Un Verano Sin Ti (2022)</h3>
+                    <li>Captura el espíritu del verano con una fusión de géneros.</li>
+                    <img src="images/bad_bunny5.jpg" alt="Bad Bunny en concierto" width="200" height="300">
+                </div>
+                <div class="disco-discografía">
+                    <h3>Nadie Sabe Lo Que Va a Pasar Mañana (2023)</h3>
+                    <li>Un regreso a sus raíces en el trap, con temas introspectivos.</li>
+                    <img src="images/bad_bunny6.jpg" alt="Bad Bunny en concierto" width="200" height="300">
+                </div>
+            </div>
+        </section>
+
+        <section id="conciertos" class="section">
+            <h2>Conciertos</h2>
+            <ul>
+                <li><strong>X100PRE Tour (2019)</strong> - Conciertos en Nueva York, Los Ángeles y Ciudad de México.</li>
+                <li><strong>Oasis Tour (2019)</strong> - Gira conjunta con J Balvin.</li>
+                <li><strong>YHLQMDLG Tour (2020)</strong> - Gira por Estados Unidos, América Latina y Europa.</li>
+                <li><strong>El Último Tour Del Mundo (2021)</strong> - Presentaciones en el Staples Center y el Auditorio Nacional.</li>
+                <li><strong>Un Verano Sin Ti Tour (2022)</strong> - Conciertos en el Madison Square Garden, Foro Sol y Wanda Metropolitano.</li>
+            </ul>
+        </section>
+
+        <section id="multimedia" class="section">
+            <h2>Multimedia</h2>
+            <div class="galeria">
+                <div class="disco-concierto">
+                    <li><strong>Bad Bunny en concierto</strong></li>
+                    <img src="images/bad_bunny7.jpg" alt="Bad Bunny en concierto" width="700" height="400">
+                </div>
+                <div class="disco-concierto">
+                    <li><strong>Bad Bunny con fans</strong></li>
+                    <img src="images/bad_bunny8.jpg" alt="Bad Bunny con fans" width="700" height="400">
+                </div>
+                <div class="disco-concierto">
+                    <li><strong>Una Velita (click para ver)</strong></li>
+                    <a href="https://www.youtube.com/watch?v=On1mm8vWJ50" target="_blank"> <img src="images/una velita badbunny.png" alt="Canción más reciente" width="700" height="400" alt="Una Velita"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tributo a Bad Bunny. Desarrollado por Sofía Naranjo Díaz.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navList = document.querySelector('#menu');
+        menuToggle.addEventListener('click', () => {
+            const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !expanded);
+            navList.hidden = expanded;
+        });
+    </script>
+</body>
+</html>
